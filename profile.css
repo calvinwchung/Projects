@@ -1,0 +1,162 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro {
+    display: flex;
+    color: white;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url("images/theboys.png");
+    background-size: cover;
+}
+
+.myName {
+    margin-top: 10%;
+    margin-left: 35%;
+    opacity: 80%;
+    position: relative;
+    
+}
+
+.myName::after{
+    content: "";
+    position: absolute;
+    right: -10px;
+    width: 1px;
+    height: 6%;
+    border-right: 2px solid white;
+    animation: blink 1.3s infinite ease;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+span {
+    opacity: 0;
+    transition: all 2s;
+}
+
+span.fade {
+    opacity: 1;
+}
+
+html {
+    box-sizing: border-box;
+    background: #ffc600;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  .panels {
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+  }
+
+  .panel {
+    background: #6B0F9C;
+    box-shadow: inset 0 0 0 5px rgba(255,255,255,0.1);
+    color: white;
+    text-align: center;
+    align-items: center;
+    /* Safari transitionend event.propertyName === flex */
+    /* Chrome + FF transitionend event.propertyName === flex-grow */
+    transition:
+      font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+      flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+      background 0.2s;
+    font-size: 10px;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .panel1 { background-image:url(images/theboys1.png);}
+  .panel2 { background-image:url(images/theboys2.png);}
+  .panel3 { background-image:url(images/theboys3.png);}
+  .panel4 { background-image:url(images/theboys4.png);}
+  .panel5 { background-image:url(images/theboys5.png);}
+
+  /* Flex Children */
+  .panel > * {
+    margin: 0;
+    width: 100%;
+    transition: transform 0.5s;
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .panel > *:first-child { transform: translateY(-100%);}
+  .panel.open-active > *:first-child { transform: translateY(0);}
+  .panel > *:last-child {transform: translateY(100%);}
+  .panel.open-active > *:last-child { transform: translateY(0);}
+
+  .panel p {
+    /* text-transform: uppercase; */
+    font-family: 'Oxygen', sans-serif;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
+    font-size: 2em;
+  }
+  
+  .panel p:nth-child(2) {
+    font-size: 4em;
+  }
+
+  .panel.open {
+    flex: 5;
+    font-size: 40px;
+  }
+
+  h2 {
+    color: #3046c5;
+}
+
+header h2 {
+    color: #CEC8FF; 
+}
+
+.site-footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: black;
+    
+}
+
+.welcome {
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}

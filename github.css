@@ -1,0 +1,103 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro {
+    display: flex;
+    color: white;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url("images/theboys.png");
+    background-size: cover;
+}
+
+.myName {
+    margin-top: 10%;
+    margin-left: 35%;
+    opacity: 80%;
+    position: absolute;
+    width: 30%;
+    
+}
+
+.myName::after{
+    content: "";
+    position: absolute;
+    right: -10px;
+    width: 1px;
+    height: 6%;
+    border-right: 2px solid white;
+    animation: blink 1.3s infinite ease;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+span {
+    opacity: 0;
+    transition: all 2s;
+}
+
+span.fade {
+    opacity: 1;
+}
+
+.site-footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: black;
+    
+}
+
+.welcome {
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.languages {
+    margin-top: 60%;
+    margin-left: 20%;
+}
+
+img {
+  width: 100px;  
+  opacity: 70%;
+  
+}
+
+.flappy {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    z-index: -1;
+    
+}
+
+.imposter {
+    width: 100px;
+    height: 100px;
+    
+    opacity: 50%;
+}
+
+.icons {
+    margin-top: 30%;
+}

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="80"
+   height="81"
+   id="svg3070"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="logo-linkedin-square2.svg">
+  <defs
+     id="defs3072">
+    <linearGradient
+       id="linearGradient162347">
+      <stop
+         style="stop-color:#a83ea2;stop-opacity:1;"
+         offset="0"
+         id="stop162349" />
+      <stop
+         style="stop-color:#d939b1;stop-opacity:1;"
+         offset="1"
+         id="stop162351" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient162347"
+       id="linearGradient162353"
+       x1="212.64828"
+       y1="405.0878"
+       x2="268.45566"
+       y2="461.24921"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="5.4105676"
+     inkscape:cy="7.3760906"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="3440"
+     inkscape:window-height="1377"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:showpageshadow="false"
+     inkscape:snap-bbox="true"
+     inkscape:object-nodes="false"
+     inkscape:bbox-nodes="true" />
+  <metadata
+     id="metadata3075">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-200.55198,-392.42227)">
+    <rect
+       style="fill:#ffffff;fill-opacity:0;stroke:none"
+       id="rect50680"
+       width="80"
+       height="81"
+       x="200.55199"
+       y="392.42227" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path14"
+       style="fill:url(#linearGradient162353);fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 212.64829,409.11084 c 0,-2.22128 1.84636,-4.02305 4.12407,-4.02305 l 47.55925,0 c 2.27763,0 4.12406,1.80177 4.12406,4.02305 l 0,48.11532 c 0,2.22202 -1.84643,4.02306 -4.12406,4.02306 l -47.55925,0 c -2.27771,0 -4.12407,-1.80104 -4.12407,-4.02306 l 0,-48.11532 z" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path28"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 229.56524,452.10073 0,-25.36004 -8.42921,0 0,25.36004 8.42921,0 z m -4.21464,-28.82252 c 2.93943,0 4.76898,-1.94736 4.76898,-4.381 -0.0548,-2.48844 -1.82955,-4.38177 -4.71323,-4.38177 -2.88338,0 -4.7686,1.89333 -4.7686,4.38177 0,2.43364 1.82917,4.381 4.65791,4.381 l 0.0549,0 z" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path30"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 234.22938,452.10073 8.42913,0 0,-14.16211 c 0,-0.75795 0.0549,-1.51513 0.27736,-2.05693 0.60936,-1.51438 1.9963,-3.08277 4.32488,-3.08277 3.05012,0 4.27024,2.32558 4.27024,5.73478 l 0,13.56703 8.42846,0 0,-14.54109 c 0,-7.78946 -4.1585,-11.41404 -9.70426,-11.41404 -4.54731,0 -6.5436,2.54171 -7.65273,4.27295 l 0.0563,0 0,-3.67786 -8.42912,0 c 0.11062,2.37961 0,25.36004 0,25.36004 z" />
+  </g>
+</svg>
