@@ -1,8 +1,8 @@
-// const texts = ["a little about me. i'm a full stack developer in the philadelphia area. i'm a nucamp graduate. below are some of the languages that i've learned during bootcamp."];
-// let count = 0;
-// let index = 0;
-// let currentText = "";
-// let letter = "";
+const texts = ["click the icons below to play games and to check out my projects"];
+let count = 0;
+let index = 0;
+let currentText = "";
+let letter = "";
 
 (function type() {
     if (count === texts.length) {

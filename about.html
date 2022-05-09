@@ -26,7 +26,7 @@
           
         </header>
         <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-            <div class="container">
+            <div class="container navigation">
                 <a class="navbar-brand" href="profile.html"><p class="welcome">WELCOME</p> </a>
                 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#profileNavbar">
                     <span class="navbar-toggler-icon"></span>
@@ -35,20 +35,59 @@
                     <ul class="navbar-nav">
                         <li class="nav-item"><a class="nav-link" href="profile.html"><i class="fa fa-home fa-lg"></i> home</a></li>
                         <li id="about " class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-info fa-lg"></i> about</a></li>
-                        <li class="nav-item"><a class="nav-link" href="github.html"><i class="fa fa-list fa-lg"></i> github</a></li>
-                        <li class="nav-item"><a class="nav-link" href="social.html"><i class="fa fa-address-card fa-lg"></i> social</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-address-card fa-lg"></i> contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="github.html"><i class="fa fa-list fa-lg"></i> arcade</a></li>
+                        <li class="nav-item"><a class="nav-link" href="social.html"><i class="fa fa-address-card fa-lg"></i> contact</a></li>
+                        
                     </ul>
                 </div>
             </div>
         </nav>
+        
         <div class="intro">
-            <h1 class="myName"></h1>
-            <h1 class="scrollDown"></h1>
+            <div class="profilepic">
+                <img class="profilepic2" src="images/profilepic.png">
+                <h1>calvin chung</h1>
+                <p>software engineer</p>
+                <div class="socials">
+                    <a href="https://github.com/calvinwchung" target="_blank"> <i class="devicon-github-original icons4" font-size 10></i></a>
+                    <a href="https://www.linkedin.com/in/calvin-chung-b02b8416a/" target="_blank"> <i class="devicon-linkedin-plain icons4"></i></a>
+                    <a href="https://www.facebook.com/calvin.w.chung/" target="_blank"> <i class="devicon-facebook-plain icons4"></i></a>
+                  </div>
+            </div>
+           
+            <div class="aboutMe">
+                <h2>about me</h2>
+                <p>i am a full stack developer with expertise in vanilla javascript and react. i primarily enjoy coding on the front end. i'm a temple university graudate with a degree in finance. i'm currently attending nucamp bootcamp.</p>
+            </div>
 
-            <div class="container">
+            <div class="education">
+                <h2>education</h2>
+                <div class="education2">
+                    <div class="nucamp">
+                        <a href="https://www.nucamp.co/" target="_blank"> <img src="images/logo.png"/></a>
+                        <div>
+                            <p class="bctext">nucamp bootcamp</p>
+                            <p class="bctext" >April 25th - Aug 25th 2022</p>
+                        </div>
+                    </div>
+                    <div class="temple2">
+                        <a href="https://www.temple.edu/" target="_blank"> <img class="temple" src="images/temple.png"/></a>
+                        <div>
+                            <p class="tutext">temple university</p>
+                            <p class="tutext">2008-2013</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills">
+                <h2>skills</h2>
+            </div>
+           
+
+            <div class="container skills">
                 <div class="row">
-                    <div class="col-xs-1 col-sm-12 languages">
+                    <div class="col-xs-1 col-sm-8 languages">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
@@ -56,7 +95,6 @@
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
                         <img src="images/react native.svg"/>
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
-                        <br/>
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" />
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" />
@@ -66,6 +104,7 @@
                         <img src="images/packaging.svg"/>            
                     </div>
                 </div>
+                
             </div>
         </div>
         <script src="about.js"></script>

@@ -8,7 +8,7 @@ body {
 .intro {
     display: flex;
     color: white;
-    height: 100vv;
+    height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url("images/theboys.png");
     background-size: cover;
 }
@@ -20,6 +20,34 @@ body {
     position: absolute;
     width: 30%;
     
+}
+
+.myName::after{
+    content: "";
+    position: absolute;
+    right: -10px;
+    width: 1px;
+    height: 6%;
+    border-right: 2px solid white;
+    animation: blink 1.3s infinite ease;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+span {
+    opacity: 0;
+    transition: all 2s;
+}
+
+span.fade {
+    opacity: 1;
 }
 
 .site-footer {
@@ -54,40 +82,4 @@ img {
   border-radius: 50%;
   border: none;
   
-}
-
-.textForm {
-    margin-top: 70px;
-}
-
-.icons {
-    margin-top: 20%;
-}
-
-.linkedin {
-    margin-bottom: 50px;
-}
-
-.linkedin:hover {
-    filter: brightness(70%)
-}
-
-.facebook {
-    margin-bottom: 50px;
-}
-
-.facebook:hover {
-    filter: brightness(70%)
-}
-
-.instagram {
-    margin-bottom: 50px;
-}
-
-.instagram:hover {
-    filter: brightness(70%)
-}
-
-.jibberish {
-    color: transparent;
 }

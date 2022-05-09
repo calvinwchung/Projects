@@ -14,6 +14,7 @@ let letter = "";
     document.querySelector(".myName").textContent = letter;
     if(letter.length === currentText.length) {
         count++;
+        // index = 0;
         
        
     }
