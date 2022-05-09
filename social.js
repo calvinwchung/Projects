@@ -17,5 +17,5 @@ let letter = "";
         
        
     }
-    setTimeout(type, 50);
+    setTimeout(type, 10);
 })();
