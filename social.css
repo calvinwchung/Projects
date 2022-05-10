@@ -91,3 +91,11 @@ img {
 .jibberish {
     color: transparent;
 }
+
+.btn {
+    color: white;
+    border: none;
+    width: 200px;
+    margin-top: 20px;
+    box-shadow: 4px 4px black;
+}

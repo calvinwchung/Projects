@@ -19,3 +19,8 @@ let letter = "";
     }
     setTimeout(type, 10);
 })();
+
+function timeRefresh(timeoutPeriod) {
+    setTimeout("location.reload(true);", timeoutPeriod);
+  }
+  window.onload = timeRefresh(5000);

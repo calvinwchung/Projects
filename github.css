@@ -66,7 +66,7 @@ img {
     height: 100px;
 }
 
-.icons {
+.icons6 {
     margin-top: 30%;
 }
 
@@ -75,12 +75,12 @@ a, a:hover {
     text-decoration: none;
   }
 
-  .icons4 {
+  .icons5 {
     font-size: 90px;
     letter-spacing: .3ch;
   }
 
-  .icons4:hover {
+  .icons5:hover {
       filter: brightness(70%)
   }
 

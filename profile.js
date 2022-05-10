@@ -23,6 +23,7 @@ let letter = "";
 
 
 
+
 const panels = document.querySelectorAll('.panel');
 
     function toggleOpen() {
@@ -39,3 +40,10 @@ const panels = document.querySelectorAll('.panel');
 
     panels.forEach(panel => panel.addEventListener('click', toggleOpen));
     panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));
+
+    const swup = new Swup()
+
+    function timeRefresh(timeoutPeriod) {
+      setTimeout("location.reload(true);", timeoutPeriod);
+    }
+    window.onload = timeRefresh(5000);
