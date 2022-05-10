@@ -375,15 +375,36 @@ a, a:hover {
 }
 
 .icons5:hover {
-    filter: brightness(70%)
+  filter: brightness(70%);
+}
+
+.icons5:hover::after {
+  content: "github";
+  font-family: 'Oxygen', sans-serif;
+  font-size: 20px;
 }
 
 .imposter:hover {
-  filter: brightness(70%)
+  filter: brightness(70%);
+  content: "imposter";
+  font-family: 'Oxygen', sans-serif;
+  font-size: 20px;
+}
+
+.imposter:hover::after {
+  content: "imposter";
+  font-family: 'Oxygen', sans-serif;
+  font-size: 20px;
 }
 
 .flappy:hover {
-  filter: brightness(70%)
+  filter: brightness(70%);
+}
+
+.flappy:hover::after {
+  content: "flappy bird";
+  font-family: 'Oxygen', sans-serif;
+  font-size: 20px;
 }
 
 .linkedin {
