@@ -21,6 +21,10 @@ body {
   /* background-size: 100px; */
 }
 
+.arcadeHeader {
+  letter-spacing: 1.0ch; 
+}
+
 .myName {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -37,8 +41,6 @@ body {
   position: absolute;    
   width: 500px;
 }
-
-
 
 .myName::after{
     content: "";
@@ -222,11 +224,14 @@ header h2 {
 .languages {
   margin: auto;
   margin-top: 5%;
+  background-color: rgba(220, 220, 220, 0.4);
+  border-radius: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 img {
 width: 100px;  
-
 }
 
 .profilepic {
@@ -354,14 +359,19 @@ a, a:hover {
 }
 
 .flappy {
+  letter-spacing: 1.7ch; 
+}
+
+.flappy2 {
   width: 100px;
   height: 100px;
-  border-radius: 50%;    
+  border-radius: 50%;
 }
 
 .imposter {
   width: 100px;
   height: 100px;
+  letter-spacing: 1.7ch;
 }
 
 .icons6 {
@@ -381,6 +391,8 @@ a, a:hover {
   content: "github";
   font-family: 'Oxygen', sans-serif;
   font-size: 20px;
+  display: block;
+  opacity: 80%;
 }
 
 .imposter:hover {
@@ -391,6 +403,7 @@ a, a:hover {
   content: "imposter";
   font-family: 'Oxygen', sans-serif;
   font-size: 20px;
+  display: block;
 }
 
 .flappy:hover {
@@ -401,7 +414,50 @@ a, a:hover {
   content: "flappy bird";
   font-family: 'Oxygen', sans-serif;
   font-size: 20px;
+  position: relative;
+  top: 110px;
+  left: 10px;
+  position: absolute;
 }
+
+.profileBody {
+  background-image: url('images/codingbg2.jpeg');
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutBody {
+  background-image: url('images/codingbg2.jpeg');
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.arcadeBody {
+  background-image: url('images/codingbg2.jpeg');
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.contactBody {
+  background-image: url('images/codingbg2.jpeg');
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 .linkedin {
   margin-bottom: 50px;
@@ -461,7 +517,7 @@ a, a:hover {
 .transition-fade {
   opacity: 1;
   transition: 500ms;
-  transform: translate(0);
+  transform: translateX(0);
   transform-origin: left;
 }
 
@@ -472,6 +528,16 @@ html.is-animating .transition-fade {
 
 html.is-leaving .transition-fade {
   opacity: 0;
-  transform: translatex(0%);
+  transform: translateX(0%);
+}
+
+.transition-swipe {
+  
+  transition: 500ms;
+  transform: translateY(0);
+}
+
+html.is-animating .transition-swipe {
+  transform: translateY(100px);
 }
 
