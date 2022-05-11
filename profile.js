@@ -47,3 +47,5 @@ const panels = document.querySelectorAll('.panel');
       setTimeout("location.reload(true);", timeoutPeriod);
     }
     window.onload = timeRefresh(5000);
+
+      
