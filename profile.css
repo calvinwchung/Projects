@@ -182,12 +182,20 @@ header h2 {
 }
 
 .navbar-toggler {
-  background-color: rgb(53, 53, 53);
+  color: white;
+  border: solid 3px white;
+  opacity: 0.8;
+}
+
+.navbar-toggler-icon {
+  color: white;
+  opacity: 1;
 }
 
 .welcome {
-    text-align: center;
     margin: auto;
+    text-align: center;
+    align-items: center;
     margin-top: 2px;
     position: relative;
 }
@@ -245,7 +253,7 @@ width: 100px;
 }
 
 .profilepic2:hover {
-  filter: blur(2px);
+  filter: blur(1px);
 }
 
 .aboutMe {
@@ -541,3 +549,6 @@ html.is-animating .transition-swipe {
   transform: translateY(100px);
 }
 
+.navbar-nav {
+  margin: auto;
+}
