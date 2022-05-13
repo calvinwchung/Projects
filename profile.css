@@ -552,3 +552,25 @@ html.is-animating .transition-swipe {
 .navbar-nav {
   margin: auto;
 }
+
+nav li {
+  position: relative;
+
+}
+
+nav li::before {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: white;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav li:hover::before {
+  width: 100%;
+}
+
