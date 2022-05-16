@@ -1,0 +1,124 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.antiLogo {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.antiLogo:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1)
+}
+
+.navbar {
+    background-color: black;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.navbar-toggler {
+  color: white;
+  border: solid 3px white;
+  opacity: 0.8;
+}
+
+#profileNavbar {
+    text-align: left;
+    align-items: left;
+    margin: auto;
+  }
+
+.contact {
+    margin-left: 3%;
+}
+
+.about {
+    margin-left: 3%;
+}
+
+.signin {
+    margin-left: 3%;
+}
+
+nav li {
+    position: relative;
+  }
+
+nav li::before {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: white;
+  
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+  }
+  
+  nav li:hover::before {
+    width: 100%;
+  }
+
+.dropdown-item {
+    display: none;
+    color: white;
+  }
+
+.dropdown-divider {
+    display: none;
+}
+
+.dropdown:hover .dropdown-item {
+    display: block;
+}
+
+.dropdown:hover .dropdown-divider {
+    display: block;
+}
+
+.hoodie1 {
+    width: 300px;
+}
+
+.box {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.box img {
+    width: 100%;
+    transform: all linear 0.7s;
+}
+
+img.hover-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.box:hover img{
+    opacity: 0;
+}
+
+.box:hover img.hover-img {
+    opacity: 1; 
+}
+
+
+.firstRow {
+    margin: auto;
+    margin-top: 10%;
+    margin-left: 20%;
+}
