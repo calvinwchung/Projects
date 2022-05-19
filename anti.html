@@ -38,16 +38,16 @@
                             <li class="nav-item active dropdown">
                                 <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-home fa-lg"></i> shop</a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown"></div>
-                                <a class="dropdown-item" href="#">shirts</a>
+                                <a class="dropdown-item" href="#" id="shirt" onclick="clickShirt()">shirts</a>
                                 <a class="dropdown-item" href="#">hoodies</a>
                                 <a class="dropdown-item" href="#">pants</a>
                                 <a class="dropdown-item" href="#">hats</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item">men</a>
-                                <a class="dropdown-item">women</a>
-                                <a class="dropdown-item">kids</a>
+                                <a class="dropdown-item" href="#">men</a>
+                                <a class="dropdown-item" href="#">women</a>
+                                <a class="dropdown-item" href="#">kids</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item">best sellers</a>
+                                <a class="dropdown-item" href="#">best sellers</a>
                             </li>
                             <li id="about" class="nav-item"><a class="nav-link" href="#"><i class="fa fa-info fa-lg"></i> contact</a></li>
                             <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> about</a></li>
@@ -56,88 +56,124 @@
                     </div>
                 </div>
             </nav>
-            <img class="antiLogo" src="images/antilogo.png"/>
+            <a href="anti.html"> <img class="antiLogo" src="images/antilogo.png"/></a>
 
             <div class="container">
-                <div class="row firstRow">
-                    <div class="col-xs-1 col-sm-5 box">
+                <div class="row firstRow" id="firstRow">
+                    <div class="col-xs-1 col-sm-5 box" id="hoodie">
                         <img class="hoodie1" src="images/hoodie1.jpeg"/>
                         <img class="hover-img" src="images/hoodiev1.jpeg"/>
+                        <h2 class="desc">The KP Crewneck</h2>
+                        <p class="price">$58.00 USD</p>
                     </div>
-                    <div class="col-xs-1 col-sm-5 box">
+                    <div class="col-xs-1 col-sm-5 box" id="shirt">
                         <img class="shirt1" src="images/shirt1.jpeg"/>
                         <img class="hover-img" src="images/shirtv1.jpeg"/>
+                        <h2 class="desc">God Made - Garment Tee</h2>
+                        <p class="price">$38.00 USD</p>
                     </div>
-                    <div class="col-xs-1 col-sm-5 box">
+                    <div class="col-xs-1 col-sm-5 box" id="hat">
                         <img class="hat1" src="images/hat1.jpeg"/>
                         <img class="hover-img" src="images/hatv1.jpeg"/>
+                        <h2 class="desc">The Signature Beanie</h2>
+                        <p class="price">$31.00 USD</p>
                     </div>
-                    <div class="col-xs-1 col-sm-5 box">
+                    <div class="col-xs-1 col-sm-5 box" id="pants">
                         <img class="pants1" src="images/pants1.jpeg"/>
                         <img class="hover-img" src="images/pantsv1.jpeg"/>
+                        <h2 class="desc">The Training Pants</h2>
+                        <p class="price">$52.00 USD</p>
                     </div>
-                    <div class="col-xs-1 col-sm-5 box">
+                    <div class="col-xs-1 col-sm-5 box" id="shirt">
                         <img class="hat1" src="images/shirt2.jpeg"/>
                         <img class="hover-img" src="images/shirtv2.jpeg"/>
+                        <h2 class="desc">The Tiger Tee</h2>
+                        <p class="price">$40.00 USD</p>
                     </div>
-                    <div class="col-xs-1 col-sm-5 box">
+                    <div class="col-xs-1 col-sm-5 box" id="hoodie">
                         <img class="hat1" src="images/hoodie2.jpeg"/>
                         <img class="hover-img" src="images/hoodiev2.jpeg"/>
+                        <h2 class="desc">The Signature Long Sleeve</h2>
+                        <p class="price">$52.00 USD</p>
                     </div>
-                    <div class="col-xs-1 col-sm-5 box">
+                    <div class="col-xs-1 col-sm-5 box" id="hat">
                         <img class="hat1" src="images/hat2.jpeg"/>
                         <img class="hover-img" src="images/hatv2.jpeg"/>
+                        <h2 class="desc">The ESL Corduroy Hat</h2>
+                        <p class="price">$38.00 USD</p>
                     </div>
-                    <div class="col-xs-1 col-sm-5 box">
+                    <div class="col-xs-1 col-sm-5 box" id="shirt">
                         <img class="hat1" src="images/shirt3.jpeg"/>
                         <img class="hover-img" src="images/shirtv3.jpeg"/>
+                        <h2 class="desc">The Taegeuk Long Sleeve Tee</h2>
+                        <p class="price">$44.00 USD</p>
                     </div>
-                    <div class="col-xs-1 col-sm-5 box">
+                    <div class="col-xs-1 col-sm-5 box" id="hoodie">
                         <img class="hat1" src="images/hoodie4.jpeg"/>
                         <img class="hover-img" src="images/hoodiev4.jpeg"/>
+                        <h2 class="desc">The TRIGRAM Hoodie</h2>
+                        <p class="price">$68.00 USD</p>
                     </div>
-                    <div class="col-xs-1 col-sm-5 box">
+                    <div class="col-xs-1 col-sm-5 box" id="hoodie">
                         <img class="hat1" src="images/hoodie5.jpeg"/>
                         <img class="hover-img" src="images/hoodiev5.jpeg"/>
+                        <h2 class="desc">The KP Hoodie</h2>
+                        <p class="price">$64.00 USD</p>
                     </div>
-                    <div class="col-xs-1 col-sm-5 box">
+                    <div class="col-xs-1 col-sm-5 box" id="hat">
                         <img class="hat1" src="images/hat3.jpeg"/>
                         <img class="hover-img" src="images/hatv3.jpeg"/>
+                        <h2 class="desc">The Won of Won Corduroy Hat</h2>
+                        <p class="price">$41.00 USD</p>
                     </div>
-                    <div class="col-xs-1 col-sm-5 box">
+                    <div class="col-xs-1 col-sm-5 box" id="hat">
                         <img class="hat1" src="images/hat4.jpeg"/>
                         <img class="hover-img" src="images/hatv4.jpeg"/>
+                        <h2 class="desc">The SU Preme-ium Beanie 2.0</h2>
+                        <p class="price">$32.00 USD</p>
                     </div>
-                    <div class="col-xs-1 col-sm-5 box">
+                    <div class="col-xs-1 col-sm-5 box" id="hoodie">
                         <img class="hat1" src="images/hoodie3.jpeg"/>
                         <img class="hover-img" src="images/hoodiev3.jpeg"/>
+                        <h2 class="desc">The Tiger Hoodie</h2>
+                        <p class="price">$65.00 USD</p>
                     </div>
-                    <div class="col-xs-1 col-sm-5 box">
+                    <div class="col-xs-1 col-sm-5 box" id="hoodie">
                         <img class="hat1" src="images/hoodie6.jpeg"/>
                         <img class="hover-img" src="images/hoodiev6.jpeg"/>
+                        <h2 class="desc">The Stripe Hoodie</h2>
+                        <p class="price">$64.00 USD</p>
                     </div>
-                    <div class="col-xs-1 col-sm-5 box">
+                    <div class="col-xs-1 col-sm-5 box" id="hoodie">
                         <img class="hat1" src="images/hoodie7.png"/>
                         <img class="hover-img" src="images/hoodiev7.png"/>
+                        <h2 class="desc">The Korea Hoodie</h2>
+                        <p class="price">$50.00 USD</p>
                     </div>
-                    <div class="col-xs-1 col-sm-5 box">
+                    <div class="col-xs-1 col-sm-5 box" id="hat">
                         <img class="hat1" src="images/hat6.jpeg"/>
                         <img class="hover-img" src="images/hatv6.jpeg"/>
+                        <h2 class="desc">The Korea Hat</h2>
+                        <p class="price">$32.00 USD</p>
                     </div>
-                    <div class="col-xs-1 col-sm-5 box">
+                    <div class="col-xs-1 col-sm-5 box" id="hoodie">
                         <img class="hat1" src="images/hoodie8.jpeg"/>
                         <img class="hover-img" src="images/hoodiev8.jpeg"/>
+                        <h2 class="desc">The BAP Hoodie</h2>
+                        <p class="price">$65.00 USD</p>
                     </div>
-                    <div class="col-xs-1 col-sm-5 box">
+                    <div class="col-xs-1 col-sm-5 box" id="baby">
                         <img class="hat1" src="images/baby1.jpeg"/>
                         <img class="hover-img" src="images/babyv1.jpeg"/>
+                        <h2 class="desc">The God Made Onesie</h2>
+                        <p class="price">$20.00 USD</p>
                     </div>
                 </div>
-
             </div>
        
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="anti.js"></script>
     </body>
 </html>

@@ -122,3 +122,14 @@ img.hover-img {
     margin-top: 10%;
     margin-left: 20%;
 }
+
+.desc {
+    font-size: medium;
+    text-align: center;
+    /* margin-top: 5%; */
+}
+
+.price {
+    font-size: small;
+    text-align: center;
+}
