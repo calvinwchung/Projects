@@ -51,11 +51,50 @@
                             </li>
                             <li id="about" class="nav-item"><a class="nav-link" href="#"><i class="fa fa-info fa-lg"></i> contact</a></li>
                             <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> about</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-address-card fa-lg"></i> sign in</a></li>
+                            <span>
+                                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-sign-in fa-lg" id="loginButton" role="button"></i> sign in</a></li>
+                            </span>
                           </ul>
                     </div>
                 </div>
             </nav>
+
+            <div id="loginModal" class="modal fade" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title">Login</h3>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <form id="reserveForm">
+                                    <div class="form-row">
+                                        <div class="form-group col-12">
+                                            <label class="sr-only" for="loginEmail">Email address</label>
+                                            <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email">
+                                        </div>
+                                        <div class="form-group col-12">
+                                            <label class="sr-only" for="loginPassword">Password</label>
+                                            <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Password">
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox">
+                                                <label class="form-check-label">Remeber me</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                        <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <a href="anti.html"> <img class="antiLogo" src="images/antilogo.png"/></a>
 
             <div class="container">
@@ -167,6 +206,24 @@
                         <img class="hover-img" src="images/babyv1.jpeg"/>
                         <h2 class="desc">The God Made Onesie</h2>
                         <p class="price">$20.00 USD</p>
+                    </div>
+                    <div class="col-xs-1 col-sm-5 box baby" id="baby2">
+                        <img class="hat1" src="images/baby2.png"/>
+                        <img class="hover-img" src="images/babyv2.png"/>
+                        <h2 class="desc">The SU Onesie</h2>
+                        <p class="price">$20.00 USD</p>
+                    </div>
+                    <div class="col-xs-1 col-sm-5 box pants" id="pants">
+                        <img class="pants2" src="images/pants2.png"/>
+                        <img class="hover-img" src="images/pantsv2.png"/>
+                        <h2 class="desc">The TRIGAM Shorts</h2>
+                        <p class="price">$41.00 USD</p>
+                    </div>
+                    <div class="col-xs-1 col-sm-5 box pants" id="pants">
+                        <img class="pants3" src="images/pants3.png"/>
+                        <img class="hover-img" src="images/pantsv3.png"/>
+                        <h2 class="desc">The Anti Training Pants</h2>
+                        <p class="price">$58.00 USD</p>
                     </div>
                 </div>
             </div>

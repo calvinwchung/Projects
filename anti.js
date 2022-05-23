@@ -76,6 +76,12 @@ function clickHats () {
     });
 }
 
+$(function() {
+    $("#loginButton").on("click", function() {
+        $("#loginModal").modal('show');
+    });
+});
+
 
 
 
