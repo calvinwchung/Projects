@@ -47,8 +47,8 @@
                                 <a class="dropdown-item" href="#" id="kids" onclick="clickKids">kids</a>
                                 <a class="dropdown-item" href="#" id="bestSellers" onclick="clickBSellers">best sellers</a>
                             </li>
-                            <li id="about" class="nav-item"><a class="nav-link" href="#"><i class="fa fa-info fa-lg"></i> contact</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> about</a></li>
+                            <li id="about" class="nav-item"><a class="nav-link" role="button" id="contactButton"><i class="fa fa-info fa-lg"></i> contact</a></li>
+                            <li class="nav-item"><a class="nav-link" role="button" id="aboutButton"><i class="fa fa-list fa-lg"></i> about</a></li>
                             <span>
                                 <li class="nav-item"><a class="nav-link" role="button" id="loginButton">
                                     <i class="fa fa-sign-in fa-lg"></i> sign in
@@ -81,7 +81,7 @@
                                         <div class="col">
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox">
-                                                <label class="form-check-label">Remeber me</label>
+                                                <label class="form-check-label">Remember me</label>
                                             </div>
                                         </div>
                                     </div>
@@ -95,6 +95,69 @@
                     </div>
                 </div>
             </div>
+
+            <div id="contactModal" class="modal fade" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title">contact us!</h3>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <form id="reserveForm">
+                                        <div class="form-group row">
+                                            <div class="col-md-12">
+                                                <input type="text" class="form-control" id="firstName" name="firstName" placeholder="first name" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group row"> 
+                                            <div class="col-md-12">
+                                                <input type="text" class="form-control" id="lastName" name="lastName"  placeholder="last name" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group row"> 
+                                            <div class="col-12">
+                                                <input type="tel" class="form-control" name="telNum" placeholder="phone number" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group row"> 
+                                            <div class="col-md-12">
+                                                <input type="email" class="form-control" id="email" name="email" placeholder="email" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            
+                                        </div> 
+                                        <div class="form-group row">
+                                            <div class="col-md-12">
+                                                <textarea class="form-control" name="feedback" id="yourFeedback" rows="8" placeholder="add your comments here"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-md-10">
+                                                <button type="submit" class="btn btn-primary">submit</button>
+                                            </div>
+                                        </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="aboutModal" class="modal fade" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header aboutHeader">
+                            <h3 class="modal-title">contact us!</h3>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        
+                        <img class="about" src="images/about.png"/>
+                    </div>
+                </div>
+            </div>
+
             <a href="anti.html"> <img class="antiLogo" src="images/antilogo.png"/></a>
 
             <div class="container">

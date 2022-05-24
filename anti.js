@@ -86,6 +86,16 @@ $(function() {
     });
 });
 
+$(function() {
+    $("#contactButton").on("click", function() {
+        $("#contactModal").modal('show');
+    });
+});
 
+$(function() {
+    $("#aboutButton").on("click", function() {
+        $("#aboutModal").modal('show');
+    });
+});
 
 

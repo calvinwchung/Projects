@@ -133,3 +133,20 @@ img.hover-img {
     font-size: small;
     text-align: center;
 }
+
+.about {
+    width: 800px;
+}
+
+.modal-title {
+    margin-left: 4%;
+    color: white;
+}
+
+.modal-header {
+    background-color: rgb(86, 86, 86);
+}
+
+.aboutHeader {
+    width: 815px;
+}
