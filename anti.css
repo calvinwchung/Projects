@@ -150,3 +150,33 @@ img.hover-img {
 .aboutHeader {
     width: 815px;
 }
+
+.btnbtn {
+    border: dotted 1px rgb(86, 86, 86);
+}
+
+.btnbtn:hover {
+    background-color: aquamarine;
+    border: dotted 1px blue;
+    color: blue;
+}
+
+.rememberMe:hover {
+    color: blue;
+}
+
+.form-control {
+    border: dotted 1px rgb(86, 86, 86);
+}
+
+.form-control:hover {
+    border: dotted 1px blue;
+}
+
+.close {
+    color: white;
+}
+
+.close:hover {
+    color: red;
+}
