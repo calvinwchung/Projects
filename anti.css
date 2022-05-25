@@ -135,7 +135,8 @@ img.hover-img {
 }
 
 .about {
-    width: 800px;
+    width: 750px;
+    margin-top: 5%;
 }
 
 .modal-title {
@@ -179,4 +180,33 @@ img.hover-img {
 
 .close:hover {
     color: red;
+}
+
+.aboutText {
+    width: 815px;
+    margin-left: 15%;
+}
+
+.aboutTextt {
+    width: 650px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.aboutTexttt {
+    margin-bottom: 20px;
+}
+
+.aboutHeaderr {
+    color: red;
+}
+
+.modal {
+    opacity: 90%;
+    margin-top: 10%;
+}
+
+#aboutModal {
+    margin: auto;
+    left: -250px;
 }
