@@ -4,25 +4,26 @@
 // let currentText = "";
 // let letter = "";
 
-(function type() {
-    if (count === texts.length) {
-        count = 0;
-    }
-    currentText = texts[count];
-    letter = currentText.slice(0, ++index);
+// (function type() {
+//     if (count === texts.length) {
+//         count = 0;
+//     }
+//     currentText = texts[count];
+//     letter = currentText.slice(0, ++index);
 
-    document.querySelector(".myName").textContent = letter;
-    if(letter.length === currentText.length) {
-        count++;
+//     document.querySelector(".myName").textContent = letter;
+//     if(letter.length === currentText.length) {
+//         count++;
         
        
-    }
-    setTimeout(type, 10);
-})();
+//     }
+//     setTimeout(type, 10);
+// })();
 
 const swup = new Swup()
 
-function timeRefresh(timeoutPeriod) {
-    setTimeout("location.reload(true);", timeoutPeriod);
-  }
-  window.onload = timeRefresh(5000);
+// function timeRefresh(timeoutPeriod) {
+//     setTimeout("location.reload(true);", timeoutPeriod);
+//   }
+//   window.onload = timeRefresh(5000);
+

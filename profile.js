@@ -1,4 +1,4 @@
-const texts = ["hello, i'm calvin chung"];
+const texts = ["hello, i'm calvin chung."];
 let count = 0;
 let index = 0;
 let currentText = "";
@@ -18,7 +18,14 @@ let letter = "";
         
        
     }
-    setTimeout(type, 150);
+    setTimeout(type, 80);
+
+    
+    function timeRefresh(timeoutPeriod) {
+    setTimeout("location.reload(true);", timeoutPeriod);
+    }
+    window.onload = timeRefresh(5000);
+    
 })();
 
 
@@ -41,11 +48,5 @@ const panels = document.querySelectorAll('.panel');
     panels.forEach(panel => panel.addEventListener('click', toggleOpen));
     panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));
 
-    const swup = new Swup()
+    const swup = new Swup();
 
-    function timeRefresh(timeoutPeriod) {
-      setTimeout("location.reload(true);", timeoutPeriod);
-    }
-    window.onload = timeRefresh(5000);
-
-      

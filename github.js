@@ -22,7 +22,7 @@
 
 const swup = new Swup()
 
-function timeRefresh(timeoutPeriod) {
-    setTimeout("location.reload(true);", timeoutPeriod);
-  }
-  window.onload = timeRefresh(5000);
+// function timeRefresh(timeoutPeriod) {
+//     setTimeout("location.reload(true);", timeoutPeriod);
+//   }
+//   window.onload = timeRefresh(5000);
