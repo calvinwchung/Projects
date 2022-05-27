@@ -87,7 +87,7 @@ html {
   }
 
   .panels {
-    min-height: 100vh;
+    min-height: 700px;
     overflow: hidden;
     display: flex;
   }
@@ -115,11 +115,26 @@ html {
     filter: blur(2px);
   }
 
-  .panel1 { background-image:url(images/theboys1.png);}
-  .panel2 { background-image:url(images/theboys2.png);}
-  .panel3 { background-image:url(images/theboys3.png);}
-  .panel4 { background-image:url(images/theboys4.png);}
-  .panel5 { background-image:url(images/theboys5.png);}
+  .panel1 { 
+    background-image:url(images/theboys1.png);
+    background-position: bottom;
+  }
+  .panel2 { 
+    background-image:url(images/theboys2.png);
+    background-position: bottom;
+  }
+  .panel3 { 
+    background-image:url(images/theboys3.png);
+    background-position: bottom;
+  }
+  .panel4 { 
+    background-image:url(images/theboys4.png);
+    background-position: bottom;
+  }
+  .panel5 { 
+    background-image:url(images/theboys5.png);
+    background-position: bottom;
+  }
 
   /* Flex Children */
   .panel > * {
@@ -431,6 +446,7 @@ a, a:hover {
 .profileBody {
   background-image: url('images/codingbg2.jpeg');
   min-height: 500px;
+  height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
