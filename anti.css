@@ -12,7 +12,8 @@ body {
 
 .antiLogo:hover {
     -webkit-transform: scaleX(-1);
-    transform: scaleX(-1)
+    transform: scaleX(-1);
+    filter:blur(2px);
 }
 
 .navbar {
@@ -209,6 +210,22 @@ img.hover-img {
 #aboutModal {
     margin: auto;
     left: -250px;
+}
+
+.icons4 {
+    width: 50px;
+    margin-left: 1%;
+}
+
+.icons4:hover {
+    filter: brightness(70%)
+}
+
+.socials {
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
 }
 
 @media (max-width: 700px) {
