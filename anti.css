@@ -210,3 +210,21 @@ img.hover-img {
     margin: auto;
     left: -250px;
 }
+
+@media (max-width: 700px) {
+    .about {
+        display: none;
+    }
+    #aboutModal {
+        margin-left: 210px;
+        margin-top: 10%;
+    }
+
+    .aboutTextt {
+        width: 300px;
+    }
+
+    .aboutHeader {
+        width: 425px;
+    }
+}
